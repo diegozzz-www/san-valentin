@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradiente suave */
+    background: linear-gradient(135deg, #d1f2d1, #e0f7e0); /* Gradiente verde pastel */
     font-family: 'Arial', sans-serif;
 }
 
@@ -14,13 +14,13 @@ body {
     background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border: 1px solid rgba(255, 255, 255, 0.3); /* Borde sutil */
     backdrop-filter: blur(10px); /* Efecto de desenfoque */
 }
 
 h1 {
-    color: #e91e63; /* Rosa fuerte */
+    color: #2e8b57; /* Verde oscuro pastel */
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto */
@@ -49,12 +49,12 @@ button {
 }
 
 #yes-btn {
-    background-color: #ff69b4; /* Rosa */
+    background-color: #77dd77; /* Verde pastel */
     color: white;
 }
 
 #no-btn {
-    background-color: #ff4444; /* Rojo */
+    background-color: #ff6f61; /* Coral pastel (contraste con el verde) */
     color: white;
 }
 
@@ -70,7 +70,7 @@ button:hover {
 #response {
     margin-top: 20px;
     font-size: 1.8rem;
-    color: #e91e63;
+    color: #2e8b57; /* Verde oscuro pastel */
     font-weight: bold;
     animation: fadeIn 1s ease-in-out; /* Animación de aparición */
 }
@@ -78,7 +78,7 @@ button:hover {
 #audio-message {
     margin-top: 10px;
     font-size: 1.2rem;
-    color: #ff69b4; /* Rosa */
+    color: #77dd77; /* Verde pastel */
     font-style: italic;
 }
 
@@ -121,21 +121,5 @@ button:hover {
     }
     100% {
         opacity: 0.8;
-    }
-}
-
-/* Estilos para la segunda imagen */
-.new-heart {
-    border-radius: 15px; /* Bordes suavizados (no ovalados) */
-    animation: grow 0.5s ease-in-out forwards; /* Animación de crecimiento */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para más protagonismo */
-}
-
-@keyframes grow {
-    0% {
-        transform: scale(1); /* Tamaño inicial */
-    }
-    100% {
-        transform: scale(1.5); /* Tamaño final (50% más grande) */
     }
 }
